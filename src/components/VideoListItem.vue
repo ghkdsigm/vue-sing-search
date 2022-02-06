@@ -7,7 +7,7 @@
             <!-- #5-1 -->
             <div class="videoListItem__title">{{ video.snippet.title }}</div>
             <div class="videoListItem__channelTitle">{{video.snippet.channelTitle}}</div>
-            <div class="videoListItem__description">{{video.snippet.description}}</div>
+            <!-- <div class="videoListItem__description">{{video.snippet.description}}</div> -->
             </div>
         </div>
     </div>  
@@ -44,6 +44,18 @@ export default {
 .videoListItem {
   /* display:flex; */
   height: 190px;
+  padding:10px 5px;
+  margin-bottom: 5px;
+  border: 3px solid transparent;
+  &:hover {
+      cursor:pointer;
+      border: 3px solid royalblue;
+      
+      //padding:5px 0;
+  }
+  img {
+      margin:0 15px;
+  }
 }
 .videoListItem__title {
   font-size:1.25rem;
