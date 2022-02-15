@@ -1,6 +1,6 @@
 <template>
     <RouterLink to="/" class="logo">
-        <span><img src="~assets/logo.png" alt="HEROPY"></span>
+        <span></span>
     </RouterLink> 
 </template>
 

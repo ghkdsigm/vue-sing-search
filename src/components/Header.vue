@@ -26,7 +26,7 @@ export default {
                     href: '/'
                 },
                 {
-                    name: 'About me',
+                    name: '..',
                     href: '/About'
                 }
             ]
